@@ -130,14 +130,4 @@ var config = {
   }
 };
 
-#module.exports = config;
-module.exports = {
-  entry: {
-    'js'    : './js/app.js',
-    'react' : './views/react/index.jsx',
-    'css'   : './css/app.scss'
-  },
-  output: {
-    filename: '[name]-[hash].js',
-    path: path.resolve(__dirname, 'public/dist')
- },
+module.exports = config;
